@@ -116,4 +116,4 @@ const shippingInfo = {
 dp.setBilling(billingInfo);
 dp.setShipping(shippingInfo);
 // Set dummy data for sale
-dp.doSale('100.00', '4111111111111111', '1221', '123');
+dp.doSale('100.00', '4111111111111111', '1025', '999');
