@@ -3,7 +3,7 @@
 The Integrate Payments payment API (formerly direct post) node.js example can be used with our payments API directly or through our Collect.js javascript payment integration framework product.
 
 If a developer uses Collect.js then the following parameters (ccnumber, ccexp, cvv) will need to be replaced with "payment_token"
-If using Collect.js a Public tokenization key will need to be created in our UAT environment and published on a website or web application to generate a "payment_token" which will need to be captured first using Collect.js and then passed through our Payment API.
+If using Collect.js a Public tokenization key will need to be created in our UAT environment first and published on a website or web application to generate a "payment_token" from the end user cardholder data which will need to be inputted and captured using Collect.js and then passed through our Payment API.
 
 A developer will need to create a private "security_key" to use the Payment API which can be created in our public Sandbox by going into the settings and then clicking the security key link.
 
